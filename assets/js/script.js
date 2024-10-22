@@ -87,6 +87,7 @@ function startTimer() {
  */
 function updateDisplayTime() {
     timer.textContent = `${timeLeft} seconds `;
+    timer.appendChild(document.createElement('i')).className = "fa-regular fa-clock";
 }
 
 /**
