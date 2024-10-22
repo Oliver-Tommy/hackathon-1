@@ -9,6 +9,7 @@ const submit = document.getElementById("submit");
 const usernameGameDisplay = document.getElementById("usernameGameDisplay");
 const usernameRulesDisplay = document.getElementById("usernameRulesDisplay");
 const usernameError = document.getElementById("username-error");
+const questionBody = document.getElementById("question-body");
 
 const timer = document.getElementById("timer"); // Selects timer paragraph
 
@@ -89,8 +90,11 @@ function updateDisplayTime() {
 }
 
 /**
- * 
+ * Function to stop the timer and to show end screen, with reset button to start game again.
  */
 function endQuiz() {
-
+    clearInterval(timerId);
+    questionBody.innerHTML = `<h3 id="question-number">Your time is up!</h3>
+                    <p id="question-text">You managed to score SCORE!!</p>
+                    <button class="btn" onclick=playGame()>Try again</button>`
 }
