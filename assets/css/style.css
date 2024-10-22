@@ -5,3 +5,7 @@
     text-align: inherit;
     transition: all 0.2s ease;
 }
+
+.hide {
+    display: none;
+}
