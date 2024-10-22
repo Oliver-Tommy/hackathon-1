@@ -60,7 +60,7 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <button id="Start" class="submit btn btn-dark my-4" type="submit">Start</button>
+                    <button id="start" class="submit btn btn-dark my-4" type="submit">Start</button>
                 </div>
             </div>
         </div>
@@ -68,14 +68,14 @@
 
     <!-- quiz page  -->
     <!-- user name and timer -->
-    <div class="hide">
+    <div id="quizSection" class="hide">
         <div class="container btn-window">
             <div class="row mt-2">
                 <div class="col-6">
                     <p id="usernameGameDisplay">Username</p>
                 </div>
                 <div class="col-6 justify-content-end d-flex">
-                    <p>00:00 <i class="fa-regular fa-clock"></i></p>
+                    <p id="timer"> <i class="fa-regular fa-clock"></i></p>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
         </div>
         <!-- answer buttons -->
         <div class="container btn-window">
-            <div class="btn-grid">
+            <div id="answer-buttons" class="btn-grid">
                 <button class="btn border">Answer 1</button>
                 <button class="btn border">Answer 2</button>
                 <button class="btn border">Answer 3</button>
