@@ -101,10 +101,10 @@ textarea {
     background-color: #c52232 !important;
     color: white !important;
     border-color: #c52232 !important;
+    pointer-events: none;
 }
 
 #score-display {
-    margin: 10px;
     font-weight: bold;
 }
 
