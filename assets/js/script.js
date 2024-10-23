@@ -1,75 +1,97 @@
-const questions = [
-
-]
-
+// Select necessary elements
 const enterNameSection = document.getElementById("enterNameSection");
 const rulesSection = document.getElementById("rulesSection");
 const quizSection = document.getElementById("quizSection");
 const submit = document.getElementById("submit");
+const start = document.getElementById("start");
 const usernameGameDisplay = document.getElementById("usernameGameDisplay");
 const usernameRulesDisplay = document.getElementById("usernameRulesDisplay");
 const usernameError = document.getElementById("username-error");
 const questionBody = document.getElementById("question-body");
+const timer = document.getElementById("timer");
+const answerButtons = document.getElementById("answer-buttons");
 
-const timer = document.getElementById("timer"); // Selects timer paragraph
+let questions = [];
+let currentQuestionIndex = 0;
+let score = 0;
+let timeLeft = 5;
+let timerId;
 
-
-submit.addEventListener("click", getUsername);
-
-/**
- * Function to handle the username submission
- */
-function getUsername(event) {
-    // Prevent any default actions occuring when submit button pressed
+// Handle username submission
+submit.addEventListener("click", (event) => {
     event.preventDefault();
-    
-    // Setting username variable to the text input value
     const username = document.getElementById("username").value;
 
-    // Preventing username from being empty
     if (username === "") {
-        console.error("You must enter a username");
         usernameError.classList.remove("hide");
     } else {
-        // Display the username in the games and rules sections
         usernameGameDisplay.textContent = username;
         usernameRulesDisplay.textContent = `Hi, ${username}`;
-        // Hide the enter name section and show the rules section
         enterNameSection.classList.add("hide");
         rulesSection.classList.remove("hide");
     }
-}
+});
 
-const start = document.getElementById("start"); 
-start.addEventListener("click", playGame);
-
-/**
- * Function to start the quiz
- */
-function playGame() {
-    // Show quiz section hide rules section
+// Start game button
+start.addEventListener("click", () => {
     rulesSection.classList.add("hide");
     quizSection.classList.remove("hide");
+    fetchQuestions();
+});
 
-    // start timer
-    startTimer();
+// Fetch questions from Open Trivia DB
+function fetchQuestions() {
+    const apiUrl = 'https://opentdb.com/api.php?amount=5&category=9&type=multiple';
 
-    // set current question index
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            questions = data.results.map((questionData) => {
+                const formattedQuestion = {
+                    question: questionData.question,
+                    options: [...questionData.incorrect_answers, questionData.correct_answer].sort(() => Math.random() - 0.5),
+                    correctAnswer: questionData.correct_answer
+                };
+                return formattedQuestion;
+            });
 
-    // set score
-
-    // call function to display questions
-
+            startTimer();
+            displayQuestion();
+        })
+        .catch(error => console.error('Error fetching questions:', error));
 }
 
-let timeLeft = 5; //how many seconds for the quiz
-let timerId; //variable to change
+// Display the current question
+function displayQuestion() {
+    if (currentQuestionIndex < questions.length) {
+        const currentQuestion = questions[currentQuestionIndex];
+        document.getElementById("question-number").textContent = `Question ${currentQuestionIndex + 1}`;
+        document.getElementById("question-text").innerHTML = currentQuestion.question;  // use innerHTML to decode HTML entities
 
-/**
- * Function to start the timer
- */
+        // Display answer options
+        let optionsHtml = "";
+        currentQuestion.options.forEach((option, index) => {
+            optionsHtml += `<button class="btn border" onclick="checkAnswer('${option}')">${option}</button>`;
+        });
+        answerButtons.innerHTML = optionsHtml;
+    } else {
+        endQuiz();
+    }
+}
+
+// Check answer
+function checkAnswer(selectedAnswer) {
+    const currentQuestion = questions[currentQuestionIndex];
+    if (selectedAnswer === currentQuestion.correctAnswer) {
+        score++;
+    }
+    currentQuestionIndex++;
+    displayQuestion();
+}
+
+// Timer functions
 function startTimer() {
-    timeLeft = 5;
+    timeLeft = 30;  // Set quiz time
     updateDisplayTime();
 
     timerId = setInterval(() => {
@@ -82,20 +104,22 @@ function startTimer() {
     }, 1000);
 }
 
-/**
- * Function to display time in HTML
- */
 function updateDisplayTime() {
-    timer.textContent = `${timeLeft} seconds `;
-    timer.appendChild(document.createElement('i')).className = "fa-regular fa-clock";
+    timer.textContent = `${timeLeft} seconds`;
 }
 
-/**
- * Function to stop the timer and to show end screen, with reset button to start game again.
- */
+// End quiz function
 function endQuiz() {
     clearInterval(timerId);
-    questionBody.innerHTML = `<h3 id="question-number">Your time is up!</h3>
-                    <p id="question-text">You managed to score SCORE!!</p>
-                    <button class="btn" onclick=playGame()>Try again</button>`
+    questionBody.innerHTML = `<h3 id="question-number">Time's up!</h3>
+                              <p id="question-text">Your score: ${score} / ${questions.length}</p>
+                              <button class="btn" onclick="resetQuiz()">Try Again</button>`;
+}
+
+// Reset quiz
+function resetQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    timeLeft = 5;
+    playGame();
 }
