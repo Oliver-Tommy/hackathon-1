@@ -18,7 +18,9 @@
 <header>
     <div class="container-fluid mb-5">
         <div class="row">
-            <h1 class="my-2 mx-3"><img src="assets/images/science (2).png" height="45px"> Logo/Title</h1>
+            <a class="logo"href="form.html">
+                <h1 class="my-2 mx-3"><img src="assets/images/science (2).png" height="45px"> Logo/Title</h1>
+            </a>
         </div>
     </div>
 </header>
@@ -26,39 +28,37 @@
 <body>
 
     <div class="container contact-window text-center rounded">
-       
-            <h1>Contact us</h1>
 
-        <!-- Name -->
-        <div class="inputform text-center">
-            <p>Name<p>
-            <input id="name" type="text" required>
-        </div>
+        <h2 class="my-3">Contact us</h2>
 
+        <form method="POST" action="https://formdump.codeinstitute.net">
+            <!-- Name -->
+            <div class="inputform text-center">
+                <label for="name">Name:</label><br>
+                <input id="name" name="name" type="text" placeholder="Enter Name" required>
+            </div>
 
-        <!-- Email-->
-        <div class="inputform text-center">
-            <p>Email</p>
-            <input id="email" type="text" required>
-        </div>
+            <!-- Email-->
+            <div class="inputform text-center">
+                <label for="email">Email:</label><br>
+                <input id="email" name="email" type="email" placeholder="Enter Email" required>
+            </div>
 
+            <!-- Subject -->
+            <div class="inputform text-center">
+                <label for="subject">Subject:</label><br>
+                <input id="subject" name="subject" type="text" placeholder="Enter Subject" required>
+            </div>
 
-        <!-- Subject -->
-        <div class="formsubject text-center">
-            <p>Subject</p>
-            <input id="username" type="text" required>
-        </div>
+            <!-- Text area for comments/questions-->
+            <div class="inputform text-center">
+                <label for="comments">Comments & Suggestions:</label>
+                <textarea class="text-left" name="comments" placeholder="Enter Comments & Suggestions Here"
+                    required></textarea>
+            </div>
 
-
-        <!-- Text area for comments/questions-->
-
-        <div class="formcomment text-center">
-            <p>Comments & Suggestions</p>
-            <textarea class="text-left">type here...</textarea>
-        </div>
-
-        <button id="submit" class="btn btn-dark" type="submit">Submit</button>
-
+            <button class="btn btn-dark mb-3" type="submit" value="submit">Submit</button>
+        </form>
 
 
 
