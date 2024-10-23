@@ -16,6 +16,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let timeLeft = 30;
 let timerId;
+let canAnswer = true; //prevents multiple answers
 
 // Handle username submission
 submit.addEventListener("click", (event) => {
@@ -66,12 +67,16 @@ function displayQuestion() {
     if (currentQuestionIndex < questions.length) {
         const currentQuestion = questions[currentQuestionIndex];
         document.getElementById("question-number").textContent = `Question ${currentQuestionIndex + 1}`;
-        document.getElementById("question-text").innerHTML = currentQuestion.question;  // use innerHTML to decode HTML entities
+        document.getElementById("question-text").innerHTML = currentQuestion.question; // use innerHTML to decode HTML entities
+        canAnswer = true;
 
         // Display answer options
         let optionsHtml = "";
         currentQuestion.options.forEach((option, index) => {
-            optionsHtml += `<button class="btn border" onclick="checkAnswer('${option}')">${option}</button>`;
+            optionsHtml += `<button class="btn border answer-btn" 
+                                        onclick="checkAnswer(this, '${option}')"
+                                        data-answer="${option}">
+                                        ${option}</button>`;
         });
         answerButtons.innerHTML = optionsHtml;
     } else {
@@ -80,18 +85,39 @@ function displayQuestion() {
 }
 
 // Check answer
-function checkAnswer(selectedAnswer) {
+function checkAnswer(buttonElement, selectedAnswer) {
+    // Stops multiple answers being submitted
+    if (!canAnswer) return;
+    canAnswer = false;
+
     const currentQuestion = questions[currentQuestionIndex];
-    if (selectedAnswer === currentQuestion.correctAnswer) {
+    const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+
+    // Colour the buttons
+    const buttons = document.querySelectorAll(".answer-btn");
+    buttons.forEach(button => {
+        const answer = button.getAttribute("data-answer");
+        if (answer === currentQuestion.correctAnswer) {
+            button.classList.add("correct-answer");
+        } else {
+            button.classList.add("wrong-answer");
+        }
+    });
+
+    if (isCorrect) {
         score++;
+        document.getElementById("score-display").textContent = `Score: ${score}`;
     }
-    currentQuestionIndex++;
-    displayQuestion();
+
+    setTimeout(() => {
+        currentQuestionIndex++;
+        displayQuestion();
+    }, 1000);
 }
 
 // Timer functions
 function startTimer() {
-    timeLeft = 30;  // Set quiz time
+    timeLeft = 30; // Set quiz time
     updateDisplayTime();
 
     timerId = setInterval(() => {
