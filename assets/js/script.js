@@ -42,7 +42,7 @@ start.addEventListener("click", () => {
 
 // Fetch questions from Open Trivia DB
 function fetchQuestions() {
-    const apiUrl = 'https://opentdb.com/api.php?amount=5&category=9&type=multiple';
+    const apiUrl = 'https://opentdb.com/api.php?amount=50&category=9&type=multiple&difficulty=easy';
 
     fetch(apiUrl)
         .then(response => response.json())
