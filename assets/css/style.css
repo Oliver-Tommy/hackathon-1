@@ -175,6 +175,10 @@ textarea:focus {
     outline: none;
 }
 
+textarea {
+    font-size: 100%;
+}
+
 /* Terminal cursor effect for headers */
 h1, h2, h3 {
     position: relative;
