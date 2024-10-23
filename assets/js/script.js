@@ -43,7 +43,7 @@ start.addEventListener("click", () => {
 
 // Fetch questions from Open Trivia DB
 function fetchQuestions() {
-    const apiUrl = 'https://opentdb.com/api.php?amount=50&category=9&type=multiple&difficulty=easy';
+    const apiUrl = 'https://opentdb.com/api.php?amount=50&category=17&difficulty=easy&type=multiple';
     isQuizEnded = false;
 
     fetch(apiUrl)
@@ -159,7 +159,7 @@ function startTimer() {
 }
 
 function updateDisplayTime() {
-    timer.textContent = `${timeLeft} seconds`;
+    timer.innerHTML = `${timeLeft} seconds <i class="fa-regular fa-clock"></i>`;
 }
 
 // End quiz function
@@ -170,7 +170,11 @@ function endQuiz() {
     questionBody.innerHTML = `
         <h3 id="question-number">Time's up!</h3>
         <p id="question-text">Your final score: ${score} points</p>
-        <button class="btn btn-dark" id="reset-button">Try Again</button>`;
+        <div class="text-center">
+        <button class="btn btn-dark" id="reset-button">Try Again</button>
+        <a href="../../form.html" class="btn btn-light">Leave Feedback</a>
+        </div>
+        `;
     
     answerButtons.innerHTML = '';
     
