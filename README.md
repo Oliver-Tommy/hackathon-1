@@ -41,49 +41,49 @@ This audience values creativity, problem-solving, and immersive storytelling in 
   **Acceptance Criteria:** Create a feedback form for users to comment on their experience, make the design in keeping with the rest of the layout.
 
 - **User Story 5:** As a user I can choose from some predetermined answers so that I can answer the question.<br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Create multiple choice questions displaying each answer option in a clearly labelled button, the user can select only one answer, there is immediate feedback indicating whether the answer is correct or not.
 
 - **User Story 6:** As a user I can easily navigate the website so that I am more likely to revisit and interact more.<br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Create a clear consistent layout with visual cues such as colour changes and text instructions for the user.
 
  - **User Story 7:** As a user I can see whether my answer is correct so that I can have instant feedback on my question before moving onto the next.<br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Provide answer feedback for the user with a colour coded right or wrong response on the answer buttons.
 
   - **User Story 8:** As a user I can get points for getting an answer correct so that I get a reward for being correct.<br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Create a clear points system with immediate feedback and a points display.
 
   - **User Story 9:** As a user I can read how to play the game so that I know how to play the game.<br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Make sure the game is explained enough for a new player in a succinct way in keeping with the overall theme of the game.
 
   - **User Story 10:** As a user I can see my current score so that I know how many correct answers I have<br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Create a scoreboard that displays the users points and updates as the game progresses.
 
  
 ### Should-Have User Stories
 - **User Story 11:** As a user I can see a button change colour when I hover over it so that it is more obviously an interactive page element.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Create a visual cue for buttons so that they provide clear feedback to the user that these elements are interactive..
 
 
  - **User Story 12:** As a user I can hear sound effects when I answer so that I have increased immersion in the quiz<br>
- **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+ **Acceptance Criteria:** Create sound effects to enhance the game play and add another sensory element to the game.
 
   - **User Story 13:** As a user I can engage in the story of the quiz so that I have more fun playing the quiz.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Create a narrative framing device to add more interest to the game and give the whole thing more of a distinctive atmosphere.
 
   
 
 
 ### Could-Have User Stories
 - **User Story 14:** As a user I can skip a question so that if I don't know the answer I can strategically use my time.<br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** This would allow the user to skip a question if they found it too difficult, this may not fit in with the theme of the game.
 
 - **User Story 15:** As a user I can choose the difficulty of the quiz so that I can decide on how tough the questions are to answer  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Again perhaps this isn't right for the theme, the questions will be set for the user.
 - **User Story 16:** As a user I can select the quiz subject so that I can play my preferred subject (e.g. geography)  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** As with choosing the difficulty of the questions the user choosing their own subject probably won't be right for this project.
 
 - **User Story 17:** As a user I can hear music when playing the game so that I have increased enjoyment when playing<br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Add theme appropriate music to enhance the atmosphere of the game, perhaps with mute function so that the user can choose whether to have the music or not.
 
 
 
