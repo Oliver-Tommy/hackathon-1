@@ -14,9 +14,10 @@ const answerButtons = document.getElementById("answer-buttons");
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-let timeLeft = 30;
+let timeLeft = 60;
 let timerId;
-let canAnswer = true; //prevents multiple answers
+let canAnswer = true;
+let isQuizEnded = false;
 
 // Handle username submission
 submit.addEventListener("click", (event) => {
@@ -42,7 +43,8 @@ start.addEventListener("click", () => {
 
 // Fetch questions from Open Trivia DB
 function fetchQuestions() {
-    const apiUrl = 'https://opentdb.com/api.php?amount=5&category=9&type=multiple';
+    const apiUrl = 'https://opentdb.com/api.php?amount=50&category=9&type=multiple';
+    isQuizEnded = false;
 
     fetch(apiUrl)
         .then(response => response.json())
@@ -64,19 +66,27 @@ function fetchQuestions() {
 
 // Display the current question
 function displayQuestion() {
+    if (isQuizEnded) return;
+
     if (currentQuestionIndex < questions.length) {
+        // Reset the question body content
+        questionBody.innerHTML = `
+            <h3 id="question-number">Question ${currentQuestionIndex + 1}</h3>
+            <p id="question-text"></p>
+        `;
+        
         const currentQuestion = questions[currentQuestionIndex];
-        document.getElementById("question-number").textContent = `Question ${currentQuestionIndex + 1}`;
-        document.getElementById("question-text").innerHTML = currentQuestion.question; // use innerHTML to decode HTML entities
+        document.getElementById("question-text").innerHTML = currentQuestion.question;
         canAnswer = true;
 
-        // Display answer options
         let optionsHtml = "";
         currentQuestion.options.forEach((option, index) => {
-            optionsHtml += `<button class="btn border answer-btn" 
-                                        onclick="checkAnswer(this, '${option}')"
-                                        data-answer="${option}">
-                                        ${option}</button>`;
+            optionsHtml += `
+                <button class="btn border answer-btn" 
+                        onclick="checkAnswer(this, '${option}')"
+                        data-answer="${option}">
+                    ${option}
+                </button>`;
         });
         answerButtons.innerHTML = optionsHtml;
     } else {
@@ -86,39 +96,57 @@ function displayQuestion() {
 
 // Check answer
 function checkAnswer(buttonElement, selectedAnswer) {
-    // Stops multiple answers being submitted
-    if (!canAnswer) return;
+    if (!canAnswer || isQuizEnded) return;
     canAnswer = false;
 
     const currentQuestion = questions[currentQuestionIndex];
     const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
-
-    // Colour the buttons
-    const buttons = document.querySelectorAll(".answer-btn");
+    
+    const buttons = document.querySelectorAll('.answer-btn');
     buttons.forEach(button => {
-        const answer = button.getAttribute("data-answer");
+        const answer = button.getAttribute('data-answer');
         if (answer === currentQuestion.correctAnswer) {
-            button.classList.add("correct-answer");
+            button.classList.add('correct-answer');
         } else {
-            button.classList.add("wrong-answer");
+            button.classList.add('wrong-answer');
         }
     });
 
     if (isCorrect) {
         score++;
-        document.getElementById("score-display").textContent = `Score: ${score}`;
+        updateScoreDisplay();
     }
 
-    setTimeout(() => {
-        currentQuestionIndex++;
-        displayQuestion();
-    }, 1000);
+    if (!isQuizEnded) {
+        setTimeout(() => {
+            currentQuestionIndex++;
+            displayQuestion();
+        }, 1500);
+    }
+}
+
+function updateScoreDisplay() {
+    const scoreDisplay = document.getElementById('score-display');
+    if (scoreDisplay) {
+        scoreDisplay.textContent = `Score: ${score} points`;
+    }
 }
 
 // Timer functions
 function startTimer() {
-    timeLeft = 30; // Set quiz time
+    timeLeft = 60;
     updateDisplayTime();
+
+    if (!document.getElementById('score-display')) {
+        const scoreElement = document.createElement('p');
+        scoreElement.id = 'score-display';
+        scoreElement.textContent = 'Score: 0 points';
+        document.querySelector('.btn-window .row').appendChild(scoreElement);
+    }
+
+    if (timerId) {
+        clearInterval(timerId);
+    }
 
     timerId = setInterval(() => {
         timeLeft--;
@@ -136,16 +164,44 @@ function updateDisplayTime() {
 
 // End quiz function
 function endQuiz() {
+    isQuizEnded = true;
     clearInterval(timerId);
-    questionBody.innerHTML = `<h3 id="question-number">Time's up!</h3>
-                              <p id="question-text">Your score: ${score} / ${questions.length}</p>
-                              <button class="btn" onclick="resetQuiz()">Try Again</button>`;
+    
+    questionBody.innerHTML = `
+        <h3 id="question-number">Time's up!</h3>
+        <p id="question-text">Your final score: ${score} points</p>
+        <button class="btn btn-dark" id="reset-button">Try Again</button>`;
+    
+    answerButtons.innerHTML = '';
+    
+    // Add event listener to the reset button
+    const resetButton = document.getElementById('reset-button');
+    if (resetButton) {
+        resetButton.addEventListener('click', () => {
+            resetQuiz();
+        });
+    }
 }
 
 // Reset quiz
 function resetQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    timeLeft = 30;
-    playGame();
+    timeLeft = 60;
+    isQuizEnded = false;
+    
+    // Reset score display
+    const scoreDisplay = document.getElementById('score-display');
+    if (scoreDisplay) {
+        scoreDisplay.textContent = 'Score: 0 points';
+    }
+    
+    // Clear the question body before fetching new questions
+    questionBody.innerHTML = `
+        <h3 id="question-number"></h3>
+        <p id="question-text"></p>
+    `;
+    
+    // Get new questions and restart
+    fetchQuestions();
 }
