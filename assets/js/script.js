@@ -14,7 +14,7 @@ const answerButtons = document.getElementById("answer-buttons");
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-let timeLeft = 5;
+let timeLeft = 30;
 let timerId;
 
 // Handle username submission
@@ -120,6 +120,6 @@ function endQuiz() {
 function resetQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    timeLeft = 5;
+    timeLeft = 30;
     playGame();
 }
