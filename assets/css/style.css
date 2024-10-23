@@ -11,7 +11,9 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-body h1, h2, h3 {
+body h1,
+h2,
+h3 {
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
 }
@@ -32,24 +34,25 @@ body h1, h2, h3 {
 
 
 
-.quiz-window, .contact-window {
+.quiz-window,
+.contact-window {
     width: 800px;
     max-width: 80%;
     border: 2px solid;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
 }
 
-#question-body{
+#question-body {
     margin: 10px;
     padding: 10px;
 }
 
-.btn-window{
+.btn-window {
     width: 800px;
     max-width: 80%;
 }
 
-.btn-grid{
+.btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 15px;
@@ -66,9 +69,10 @@ body h1, h2, h3 {
 }
 
 /*Form-page*/
-.inputform, .formcomment {
-margin: 10px;
-padding: 10px;
+.inputform,
+.formcomment {
+    margin: 10px;
+    padding: 10px;
 }
 
 textarea {
@@ -80,13 +84,35 @@ textarea {
     border-radius: 4px;
     background-color: #f8f8f8;
     font-size: 16px;
-    
-  }
 
-  
+}
 
-/* @media only screen and (max-width: 600px) {
-    header{
-        display: none;
-    }
-} */
+/* Answer colour classes and scoreboard ------------------ */
+
+.correct-answer {
+    background-color: #1eb942 !important;
+    color: white !important;
+    border-color: #1eb942 !important;
+    /* works with canAnswer so that no multiple answers can be submitted */
+    pointer-events: none;
+}
+
+.wrong-answer {
+    background-color: #c52232 !important;
+    color: white !important;
+    border-color: #c52232 !important;
+}
+
+#score-display {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.answer-btn {
+    transition: background-color 0.2s ease;
+}
+
+.correct-answer:hover,
+.wrong-answer:hover {
+    cursor: default;
+}
