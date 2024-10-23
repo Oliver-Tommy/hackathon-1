@@ -172,7 +172,7 @@ function endQuiz() {
         <p id="question-text">Your final score: ${score} points</p>
         <div class="text-center">
         <button class="btn btn-dark" id="reset-button">Try Again</button>
-        <a href="/../../form.html" class="btn btn-light">Leave Feedback</a>
+        <a href="../../form.html" class="btn btn-light">Leave Feedback</a>
         </div>
         `;
     
