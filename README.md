@@ -29,17 +29,16 @@ This audience values creativity, problem-solving, and immersive storytelling in 
 
 ### Must-Have User Stories
 - **User Story 1:** As a user I can see a countdown of how many seconds are left so that I know how long I have left to answer questions. <br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Create a working timer function that is visible to the user that counts down in seconds.
 
 
 - **User Story 2:** As a user I can make a username so that my username provides a layer of interaction.<br> 
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Create a username input field, with username validation and a clear error message, a submit button and a persistant username display so the name remains visible throughout the quiz and the game can refer to the user by name. 
 
  - **User Story 3:** As a user I can click on a button with an answer so that I can answer the given question.<br>
- **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
+ **Acceptance Criteria:** Create clearly visible answer options presented as clickable buttons, the buttons adjust layout depending on screen size for usability.
 - **User Story 4:** As a user I can provide feedback so that I may report any issues with the website.<br>
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+  **Acceptance Criteria:** Create a feedback form for users to comment on their experience, make the design in keeping with the rest of the layout.
 
 - **User Story 5:** As a user I can choose from some predetermined answers so that I can answer the question.<br>
   **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
@@ -47,38 +46,63 @@ This audience values creativity, problem-solving, and immersive storytelling in 
 - **User Story 6:** As a user I can easily navigate the website so that I am more likely to revisit and interact more.<br>
   **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
 
- - **User Story 7:** As a user I can see whether my answer is correct so that I can have instant feedback on my question before moving onto the next<br>
+ - **User Story 7:** As a user I can see whether my answer is correct so that I can have instant feedback on my question before moving onto the next.<br>
+  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+
+  - **User Story 8:** As a user I can get points for getting an answer correct so that I get a reward for being correct.<br>
+  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+
+  - **User Story 9:** As a user I can read how to play the game so that I know how to play the game.<br>
+  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+
+  - **User Story 10:** As a user I can see my current score so that I know how many correct answers I have<br>
+  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+
+ 
+### Should-Have User Stories
+- **User Story 11:** As a user I can see a button change colour when I hover over it so that it is more obviously an interactive page element.  
+  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+
+
+ - **User Story 12:** As a user I can hear sound effects when I answer so that I have increased immersion in the quiz<br>
+ **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+
+  - **User Story 13:** As a user I can engage in the story of the quiz so that I have more fun playing the quiz.  
   **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
 
   
 
-(Include all prioritized must-have features)  
-**Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
-
-### Should-Have User Stories
-- **User Story 1:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include all prioritized should-have features)  
-**Guidance:** Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
 
 ### Could-Have User Stories
-- **User Story 1:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the could-have feature.  
+- **User Story 14:** As a user I can skip a question so that if I don't know the answer I can strategically use my time.<br>
   **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
 
-(Include any could-have features considered for future enhancements)  
-**Guidance:** Document any optional features that are nice to have but not essential.
+- **User Story 15:** As a user I can choose the difficulty of the quiz so that I can decide on how tough the questions are to answer  
+  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **User Story 16:** As a user I can select the quiz subject so that I can play my preferred subject (e.g. geography)  
+  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+
+- **User Story 17:** As a user I can hear music when playing the game so that I have increased enjoyment when playing<br>
+  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+
+
 
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
-**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
+
+A simple layout, which is designed to be easily navigable and responsive.
+
+![alt text](image.png)
+
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+## Colour Scheme:
+
+## Fonts:
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
@@ -93,22 +117,33 @@ Describe how DALL-E was used for image generation, including examples of success
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
+- **Feature 1:** Timer
+- **Feature 2:** Username
+- **Feature 3:** Answer buttons
+- **Feature 4:** Feedback form
+- **Feature 5:** Multiple choice questions
+- **Feature 6:** Strong visual theme
+- **Feature 7:** Answer feedback
+- **Feature 8:** Points system
+- **Feature 9:** How to play
+- **Feature 10:** Scoreboard
 
 (Include all must-have features)  
 **Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
+- **Feature 1:** Button interactivity
+- **Feature 2:** Sound effects
+- **Feature 3:** Narrative framing device
 
 (Include all should-have features)  
 **Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
 
 ### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
+- **Feature 1:** Pass button
+- **Feature 2:** Choose the difficulty of the quiz
+- **Feature 2:** Choose the quiz subject
+- **Feature 2:** Music
 
 (Include any could-have features that were implemented or considered)  
 **Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
@@ -162,7 +197,7 @@ Describe any challenges faced when integrating AI-generated content and how they
 Provide any additional insights gained during the project and thoughts on the overall process.  
 **Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
 
-## Code Attribution
+## Code Attribution and other references
 Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
 **Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
 
