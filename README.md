@@ -3,12 +3,27 @@
 ## Overview
 
 ### Purpose
-A brief description of the project's purpose, what it aims to achieve, and the value it provides to the users.  
-**Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
+The goal of this project is to deliver an engaging quiz experience for online users. The quiz is framed within a narrative for added interest, with a design that complements the storytelling while maintaining a clean, user-friendly layout for easy navigation. This front-end development is fully responsive to provide an enjoyable browsing experience across all devices, with its structure, functionality, and styling created using HTML, CSS, and JavaScript. 
+  
 
 ### Target Audience
-Identify the target audience for your website and explain why this audience will benefit from the project.  
-**Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
+
+The target audience for a clone story quiz game would likely include:
+
+Sci-Fi Enthusiasts: Fans of science fiction who enjoy themes like cloning and futuristic technology
+
+Gamers: People who enjoy interactive, story-driven games with quizzes or puzzle elements.
+
+Quiz Lovers: Players who enjoy testing their knowledge through quizzes, particularly those with a unique, immersive narrative element.
+
+Fans of Dystopian or Futuristic Narratives: Those who are into dystopian themes and enjoy engaging with these type of worlds and alternate realities.
+
+Casual Players: Users looking for short, engaging quizzes with a twist in the form of storytelling elements.
+
+Creative Story Lovers: People who appreciate narrative-driven experiences and enjoy branching storylines or "choose your own adventure" formats.
+
+This audience values creativity, problem-solving, and immersive storytelling in a futuristic or speculative setting.
+ 
 
 ## User Stories
 
