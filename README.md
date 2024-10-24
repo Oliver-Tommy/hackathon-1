@@ -232,5 +232,5 @@ Creative Commons / Attribution 3.0 Unported License (CC BY 3.0)
 https://creativecommons.org/licenses/by/3.0/deed.en_US 
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+
+A potential future improvement could be that once you've gone through the questions a few times it might be nice to have an option to get back to the game walkthrough and start it from the beginning again.
