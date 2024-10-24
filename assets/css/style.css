@@ -44,6 +44,7 @@ h1, h2, h3 {
 
 .node-window {
     margin-top: 20vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0 , 0, 0.9)), url(../images/adventureGameAssets/clones.png);
     
 }
 
