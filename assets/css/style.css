@@ -12,8 +12,8 @@
     --smoky-black: #120b04;
     --burnt-orange: #b05417;
     --orange-peel: #ffa328;
-    --terminal-green: #00ff33;
-    --terminal-red: #ef2929;
+    --terminal-green: rgba(0, 253, 51, 0.4);
+    --terminal-red: rgba(239, 41, 41, 0.4);
 }
 
 body {
