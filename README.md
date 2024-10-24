@@ -204,7 +204,7 @@ The exact colour values were obtained by selecting colours from the image using 
 
 ## Icons
 
-<a href=https://fontawesome.com/icons>fontawesome.com</a> was used to provide the clock icon.
+<a href=https://fontawesome.com/icons>Fontawesome.com</a> was used to provide the clock icon.
 
 ## Make your own adventure game code ideas
 

@@ -145,7 +145,7 @@ function checkAnswer(buttonElement, selectedAnswer) {
 function updateScoreDisplay() {
     const scoreDisplay = document.getElementById('score-display');
     if (scoreDisplay) {
-        scoreDisplay.textContent = `Score: ${score} points`;
+        scoreDisplay.textContent = `Score: ${score}`;
     }
 }
 
@@ -176,7 +176,7 @@ function startTimer() {
 }
 
 function updateDisplayTime() {
-    timer.innerHTML = `${timeLeft} seconds <i class="fa-regular fa-clock"></i>`;
+    timer.innerHTML = `${timeLeft}  <i class="fa-regular fa-clock"></i>`;
 }
 
 // End quiz function
