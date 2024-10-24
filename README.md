@@ -100,9 +100,24 @@ A simple layout, which is designed to be easily navigable and responsive.
 
 ![alt text](image-2.png)
 
+## Narrative Framing Device
+
+As part of the ideation process we decided we wanted a strong visual theme this evolved into the narrative part of the game. (explain genesis of narrative section)
+
 ## Colour Scheme:
 
+We used the following colours:
+
+FFA328 - Orange Peel
+B05417 - Burnt Orange
+120B04 - Smoky Black
+
+![alt text](<colours for clone institute.png>)
+
+
 ## Fonts:
+
+
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
