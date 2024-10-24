@@ -208,7 +208,7 @@ The exact colour values were obtained from <a href=https://coolors.co/>Coolors.c
 
 ## Images
 
-the images were designed using <a href=https://www.canva.com/>Canva.com</a>
+The images were designed using <a href=https://www.canva.com/>Canva.com</a>
 
 ## Clone Institute Logo
 
