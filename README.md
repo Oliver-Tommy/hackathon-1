@@ -117,7 +117,7 @@ B05417 - Burnt Orange
 
 ## Fonts:
 
-
+The font VT323 was selected in keeping with the theme of the game and to add atmosphere.
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
