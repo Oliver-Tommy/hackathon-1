@@ -142,7 +142,7 @@ We added colour contrasting text and backgrounds and alt text for images.
 
 ### Advanced Features (Should-Haves)
 - **Feature 1:** Button interactivity: The buttons respond to hovering over and clicking on.
-- **Feature 2:** Sound effects:
+- **Feature 2:** Music: Sourced music with a 'spooky eighties vibe'.
 - **Feature 3:** Narrative framing device: The story about the clone was added to the beginning of the game once a working quiz had been created.
 
 
@@ -225,6 +225,11 @@ The Clone Institute logo was made using <a href=https://www.logoai.com/make>logo
 <a href=https://stackoverflow.com/>stackoverflow.com</a> was used to find answers to various questions. 
 
 <a href=https://ui.dev/amiresponsive?url>Am I responsive?</a> was used to create the screenshot of our game on various devices.
+
+The music was Aura by Alex-Productions  https://onsound.eu/
+Music promoted by <a href=https://www.free-stock-music.com/>freestockmusic.com</a>
+Creative Commons / Attribution 3.0 Unported License (CC BY 3.0)
+https://creativecommons.org/licenses/by/3.0/deed.en_US 
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
