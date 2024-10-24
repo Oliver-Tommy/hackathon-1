@@ -206,7 +206,7 @@ The exact colour values were obtained from <a href=https://coolors.co/>Coolors.c
 
 ## Make your own adventure game code ideas
 
-<a href=https://www.youtube.com/watch?v=R1S_NhKkvGA>Link to youtube video</a>
+Link to youtube video: https://www.youtube.com/watch?v=R1S_NhKkvGA 
 
 ## Images
 
