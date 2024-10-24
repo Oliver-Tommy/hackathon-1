@@ -157,13 +157,41 @@ Mention any issues found and how they were resolved.
 **Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
 
 ### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
+W3C and Jigsaw validators were used on all HTML and CSS files.
 
+**index.html** 
 
+No errors or warnings detected:
 
+![screenshot of the index.html validation](<assets/images/readme/index.html.png>)
 
+<br>
+
+**main.html** 
+
+*Error* - There was a space in the file path for the logo image, due to the file name.
+
+*Warning* - Empty heading, which gets populated by javascript.
+
+![screenshot of the main.html validation](<assets/images/readme/main.html validation.png>)
+
+<br>
+
+**form.html** 
+
+*Errors* - Didn't cause the code to break, however would be rectified in future iterations.
+
+![screenshot of the form.html validation](<assets/images/readme/form.html validation.png>)
+
+**style.css** 
+
+*Errors* - None found.
+
+*Warnings* - Of low concern.
+
+![screenshot of the style.css validation](<assets/images/readme/CSS validation.png>)
+
+![screenshot of the style.css validation warnings](<assets/images/readme/CSS warnings.png>)
 
 ## Deployment
 
