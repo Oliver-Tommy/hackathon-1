@@ -1,6 +1,7 @@
 // background music logic
 
 let myAudio = document.getElementById("myAudio");
+let audioToggle = document.getElementById("toggle-audio");
 let isPlaying = false;
 
 function togglePlay() {
@@ -9,9 +10,11 @@ function togglePlay() {
 
 myAudio.onplaying = function () {
     isPlaying = true;
+    audioToggle.innerHTML = `<i class="fa-solid fa-volume-high"></i>`;
 };
 myAudio.onpause = function () {
     isPlaying = false;
+    audioToggle.innerHTML = `<i class="fa-solid fa-volume-off"></i>`;
 };
 
 
