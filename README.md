@@ -215,8 +215,12 @@ Provide any additional insights gained during the project and thoughts on the ov
 **Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
 
 ## Code Attribution and other references
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+
+## Logo
+
+The logo was sourced from <a href=https://www.flaticon.com/>Flaticon.com</a>
+
+
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
