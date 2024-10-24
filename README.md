@@ -93,66 +93,57 @@ This audience values creativity, problem-solving, and immersive storytelling in 
 
 A simple layout, which is designed to be easily navigable and responsive.
 
-![alt text](image.png)
+![wireframe of the idea for the mobile layout made using balsamiq](image.png)
 
 
-![alt text](image-1.png)
+![wireframe of the idea for the fullscreen username page layout made using balsamiq](image-1.png)
 
-![alt text](image-2.png)
+![wireframe of the idea for the fullscreen question page layout made using balsamiq](image-2.png)
+
+## Narrative Framing Device
+
+As part of the ideation process we decided we wanted a strong visual theme this evolved into the narrative part of the game. 
 
 ## Colour Scheme:
 
+We used the following colours to create the vintage feel of the game:
+
+FFA328 - Orange Peel
+B05417 - Burnt Orange
+120B04 - Smoky Black
+
+![screenshot of the three colours taken from Coolors website](<colours for clone institute.png>)
+
+
 ## Fonts:
 
+The font VT323 was selected in keeping with the theme of the game and to add atmosphere.
+
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
 
-## AI Tools Usage
+We added colour contrasting text and backgrounds and alt text for images.
 
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
 
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Timer
-- **Feature 2:** Username
-- **Feature 3:** Answer buttons
-- **Feature 4:** Feedback form
-- **Feature 5:** Multiple choice questions
-- **Feature 6:** Strong visual theme
-- **Feature 7:** Answer feedback
-- **Feature 8:** Points system
-- **Feature 9:** How to play
-- **Feature 10:** Scoreboard
+- **Feature 1:** Timer : There is a countdown from 60 seconds with a clock icon next to it.
+- **Feature 2:** Username: The username displays above the question being asked.
+- **Feature 3:** Answer buttons: These are responsive and displayed beneath the question.
+- **Feature 4:** Feedback form: There is a link to the form and the form is styled to match the rest of the game.
+- **Feature 5:** Multiple choice questions: These are sourced from an API.  
+- **Feature 6:** Strong visual theme: This is displayed in the design choices for the text and colour scheme and the surrounding story helps create the required atmosphere.
+- **Feature 7:** Answer feedback: The responsive buttons change colour according to which answer is correct.
+- **Feature 8:** Points system: The points system is connected to the question responses and is displayed on the scoreboard.
+- **Feature 9:** How to play: The rules are explained to the user within the game.
 
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Button interactivity
-- **Feature 2:** Sound effects
-- **Feature 3:** Narrative framing device
+- **Feature 1:** Button interactivity: The buttons respond to hovering over and clicking on.
+- **Feature 2:** Sound effects:
+- **Feature 3:** Narrative framing device: The story about the clone was added to the beginning of the game once a working quiz had been created.
 
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
 
-### Optional Features (Could-Haves)
-- **Feature 1:** Pass button
-- **Feature 2:** Choose the difficulty of the quiz
-- **Feature 2:** Choose the quiz subject
-- **Feature 2:** Music
-
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
-
-## AI Tools Usage
-
-### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
 
 ## Testing and Validation
 
@@ -166,40 +157,70 @@ Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.
 Include the results of the validation process.  
 **Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
 
-## AI Tools Usage
 
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
+
+
 
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+
+### GitHub Pages
+
+The site was deployed using GitHub pages, from the main branch.
+
+<a href=https://oliver-tommy.github.io/hackathon-1/>Link to the site</a>
+
+
+
+
+
+## Development Process
+
+We used an Agile methodology for planning and designing the game. We created a miro board in the first round of ideation and then had a project board for the user stories which we assigned labels of 'must have', 'should have' and 'could have' depending on perceived importance. We used Git and Github for version control, each having our own branch to work on and then combining our work through git commands and requests.
+
+
+## Code Attribution and other references
+
+## Logo
+
+The logo was sourced from <a href=https://www.flaticon.com/>Flaticon.com</a>
+
+## Wireframes
+
+The wireframes were made using Balsamiq <a href=https://www.balsamiq.com/>Balsamiq.com</a>
+
+## Colours
+
+There was a reference image:
+
+![image of orange text on black screen](image-3.png)
+
+The exact colour values were obtained from <a href=https://coolors.co/>Coolors.co</a>
+
+## Icons
+
+<a href=https://fontawesome.com/icons>fontawesome.com</a> was used to provide the clock icon.
+
+## Make your own adventure game code ideas
+
+<a href=https://www.youtube.com/watch?v=R1S_NhKkvGA>Link to youtube video</a>
+
+## Images
+
+the images were designed using <a href=https://www.canva.com/>Canva.com</a>
+
+## Clone Institute Logo
+
+The Clone Institute logo was made using <a href=https://www.logoai.com/make>logoai.com</a>
 
 ## AI Tools Usage
 
-### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
+<a href=https://chatgpt.com/>ChatGPT</a> generated the code that formatted our API data into questions.
 
-## Reflection on Development Process
+## Other sources
 
-### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
-
-### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
-
-### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
-
-## Code Attribution and other references
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+<a href=https://stackoverflow.com/>stackoverflow.com</a> was used to find answers to various questions. 
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  

@@ -12,14 +12,14 @@
     --smoky-black: #120b04;
     --burnt-orange: #b05417;
     --orange-peel: #ffa328;
-    --terminal-green: #00ff33;
-    --terminal-red: #ef2929;
+    --terminal-green: rgba(0, 253, 51, 0.4);
+    --terminal-red: rgba(239, 41, 41, 0.4);
 }
 
 body {
     font-family: "VT323", sans-serif;
     font-size: 150%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     background-color: var(--smoky-black);
     color: var(--orange-peel);
 }
@@ -41,6 +41,12 @@ h1, h2, h3 {
     text-decoration: none;
     text-shadow: 0 0 10px var(--burnt-orange);
 }
+
+.node-window {
+    margin-top: 20vh;
+    
+}
+
 
 .quiz-window,
 .contact-window {
@@ -82,6 +88,11 @@ h1, h2, h3 {
 .formcomment {
     margin: 10px;
     padding: 10px;
+    letter-spacing: 2px;
+}
+
+input#username {
+    letter-spacing: 2px;
 }
 
 textarea {
@@ -93,7 +104,7 @@ textarea {
     border-radius: 4px;
     background-color: #f8f8f8;
     font-size: 16px;
-
+    letter-spacing: 2px;
 }
 
 /* Answer button colour classes */
