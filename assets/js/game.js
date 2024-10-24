@@ -64,7 +64,7 @@ const textNodes = [
 },
 {
     id: 2,
-    text: "You hear voices. They approach, the stop, they approach again. They're geting closer all the time.",
+    text: "You hear voices. They approach, then stop, they approach again. They're geting closer all the time.",
     options: [
         {
             text: "C'mon already, lets go!",
@@ -80,7 +80,7 @@ const textNodes = [
 },
 {
     id: 3,
-    text: "You hear voices. They approach, the stop, they approach again. They're geting closer all the time.",
+    text: "You hear voices. They approach, then stop, they approach again. They're geting closer all the time.",
     options: [
         {
             text: "I want to sleep!",
@@ -112,7 +112,7 @@ const textNodes = [
 },
 {
     id: 5,
-    text: "One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for edumation.'",
+    text: "One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for education.'",
     options: [
         {
             text: "You get up",
@@ -128,7 +128,7 @@ const textNodes = [
 },
 {
     id: 6,
-    text: "They ignore your question. One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for edumation.'",
+    text: "They ignore your question. One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for education.'",
     options: [
         {
             text: "You get up.",
