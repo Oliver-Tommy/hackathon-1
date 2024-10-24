@@ -144,7 +144,7 @@ const textNodes = [{
     },
     {
         id: 5,
-        text: "One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for education.'",
+        text: "One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for testing.'",
         options: [{
                 text: "You get up.",
                 setState: {
@@ -153,7 +153,7 @@ const textNodes = [{
                 nextText: 7,
             },
             {
-                text: "Begone! I don't want to wake up!",
+                text: "You refuse.",
                 setState: {
                     awakenedClone: false
                 },
@@ -172,7 +172,7 @@ const textNodes = [{
                 nextText: 7,
             },
             {
-                text: "Begone! I don't want to wake up!",
+                text: "You refuse.",
                 setState: {
                     awakenedClone: true
                 },
@@ -201,7 +201,7 @@ const textNodes = [{
     },
     {
         id: 8,
-        text: "The two figures waste no time. They grab you out of the bag and manually handle you out of the room.",
+        text: "The two figures waste no time. They grab you out of the clone pod and manually handle you out of the room.",
         options: [{
                 text: "Try to resist",
                 setState: {
