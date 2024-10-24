@@ -19,7 +19,7 @@
 body {
     font-family: "VT323", sans-serif;
     font-size: 150%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     background-color: var(--smoky-black);
     color: var(--orange-peel);
 }
@@ -82,11 +82,11 @@ h1, h2, h3 {
 .formcomment {
     margin: 10px;
     padding: 10px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 input#username {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 textarea {
