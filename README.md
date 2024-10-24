@@ -93,14 +93,14 @@ This audience values creativity, problem-solving, and immersive storytelling in 
 
 A simple layout, which is designed to be easily navigable and responsive.
 
-![wireframe of the idea for the mobile layout made using balsamiq](image.png)
+![wireframe of the idea for the mobile layout made using balsamiq](assets/images/readme/image.png)
 
 
-![wireframe of the idea for the fullscreen username page layout made using balsamiq](image-1.png)
+![wireframe of the idea for the fullscreen username page layout made using balsamiq](assets/images/readme/image-1.png)
 
-![wireframe of the idea for the fullscreen question page layout made using balsamiq](image-2.png)
+![wireframe of the idea for the fullscreen question page layout made using balsamiq](assets/images/readme/image-2.png)
 
-![screenshot of the site displayed on various screen sizes](image-4.png)
+![screenshot of the site displayed on various screen sizes](assets/images/readme/image-4.png)
 
 ## Narrative Framing Device
 
@@ -116,7 +116,7 @@ We created the following colour palette in <a href=https://coolors.co/>Coolors.c
 <br>
 #120B04 - Smoky Black
 
-![screenshot of the three colours taken from Coolors website](<colours.png>)
+![screenshot of the three colours taken from Coolors website](<assets/images/readme/colours.png>)
 
 
 ## Fonts:
@@ -198,7 +198,7 @@ The wireframes were made using Balsamiq <a href=https://www.balsamiq.com/>Balsam
 
 The colours were sourced from a <a href="https://ca.pinterest.com/pin/github-swordfish90coolretroterm-a-good-looking-terminal-emulator-which-mimics-the-old-cathode-display--530932243588059565/">reference image:</a>
 
-![image of orange text on black screen](image-3.png)
+![image of orange text on black screen](assets/images/readme/image-3.png)
 
 The exact colour values were obtained by selecting colours from the image using <a href=https://pinetools.com/image-color-picker>pinetools.com</a>.
 
