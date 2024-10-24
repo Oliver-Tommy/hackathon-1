@@ -100,6 +100,8 @@ A simple layout, which is designed to be easily navigable and responsive.
 
 ![wireframe of the idea for the fullscreen question page layout made using balsamiq](image-2.png)
 
+![screenshot of the site displayed on various screen sizes](image-4.png)
+
 ## Narrative Framing Device
 
 As part of the ideation process we decided we wanted a strong visual theme this evolved into the narrative part of the game. 
@@ -140,7 +142,7 @@ We added colour contrasting text and backgrounds and alt text for images.
 
 ### Advanced Features (Should-Haves)
 - **Feature 1:** Button interactivity: The buttons respond to hovering over and clicking on.
-- **Feature 2:** Sound effects:
+- **Feature 2:** Music: Sourced music with a 'spooky eighties vibe'.
 - **Feature 3:** Narrative framing device: The story about the clone was added to the beginning of the game once a working quiz had been created.
 
 
@@ -204,11 +206,11 @@ The exact colour values were obtained from <a href=https://coolors.co/>Coolors.c
 
 ## Make your own adventure game code ideas
 
-<a href=https://www.youtube.com/watch?v=R1S_NhKkvGA>Link to youtube video</a>
+Link to youtube video: https://www.youtube.com/watch?v=R1S_NhKkvGA 
 
 ## Images
 
-the images were designed using <a href=https://www.canva.com/>Canva.com</a>
+The images were designed using <a href=https://www.canva.com/>Canva.com</a>
 
 ## Clone Institute Logo
 
@@ -221,6 +223,13 @@ The Clone Institute logo was made using <a href=https://www.logoai.com/make>logo
 ## Other sources
 
 <a href=https://stackoverflow.com/>stackoverflow.com</a> was used to find answers to various questions. 
+
+<a href=https://ui.dev/amiresponsive?url>Am I responsive?</a> was used to create the screenshot of our game on various devices.
+
+The music was Aura by Alex-Productions  https://onsound.eu/
+Music promoted by <a href=https://www.free-stock-music.com/>freestockmusic.com</a>
+Creative Commons / Attribution 3.0 Unported License (CC BY 3.0)
+https://creativecommons.org/licenses/by/3.0/deed.en_US 
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
