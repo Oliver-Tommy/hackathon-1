@@ -102,11 +102,11 @@ A simple layout, which is designed to be easily navigable and responsive.
 
 ## Narrative Framing Device
 
-As part of the ideation process we decided we wanted a strong visual theme this evolved into the narrative part of the game. (explain genesis of narrative section)
+As part of the ideation process we decided we wanted a strong visual theme this evolved into the narrative part of the game. 
 
 ## Colour Scheme:
 
-We used the following colours:
+We used the following colours to create the vintage feel of the game:
 
 FFA328 - Orange Peel
 B05417 - Burnt Orange
@@ -127,33 +127,22 @@ We added colour contrasting text and backgrounds and alt text for images.
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Timer
-- **Feature 2:** Username
-- **Feature 3:** Answer buttons
-- **Feature 4:** Feedback form
-- **Feature 5:** Multiple choice questions
-- **Feature 6:** Strong visual theme
-- **Feature 7:** Answer feedback
-- **Feature 8:** Points system
-- **Feature 9:** How to play
-- **Feature 10:** Scoreboard
+- **Feature 1:** Timer : There is a countdown from 60 seconds with a clock icon next to it.
+- **Feature 2:** Username: The username displays above the question being asked.
+- **Feature 3:** Answer buttons: These are responsive and displayed beneath the question.
+- **Feature 4:** Feedback form: There is a link to the form and the form is styled to match the rest of the game.
+- **Feature 5:** Multiple choice questions: These are sources from an API.  
+- **Feature 6:** Strong visual theme: This is displayed in the design choices for the text and colour scheme and the surrounding story helps create the required atmosphere.
+- **Feature 7:** Answer feedback: The responsive buttons change colour according to which answer is correct.
+- **Feature 8:** Points system: The points system is connected to the question responses and is displayed on the scoreboard.
+- **Feature 9:** How to play: The rules are explainhed to the user within the game.
 
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Button interactivity
-- **Feature 2:** Sound effects
-- **Feature 3:** Narrative framing device
+- **Feature 1:** Button interactivity: The buttons respond to hovering over and clicking on.
+- **Feature 2:** Sound effects:
+- **Feature 3:** Narrative framing device: The story about the clone was added to the beginning of the game once a working quiz had been created.
 
-
-### Optional Features (Could-Haves)
-- **Feature 1:** Pass button
-- **Feature 2:** Choose the difficulty of the quiz
-- **Feature 2:** Choose the quiz subject
-- **Feature 2:** Music
-
-
-
-## AI Tools Usage
 
 
 ## Testing and Validation
@@ -185,16 +174,11 @@ The site was deployed using GitHub pages, from the main branch.
 
 
 
-### Reflection
 
-## Reflection on Development Process
+## Development Process
 
-### Successes
+We used an Agile methodology for planning and designing the game. We created a miro board in the first round of ideation and then had a project board for the user stories which we assigned labels of 'must have', 'should have' and 'could have' depending on perceived importance. We used Git and Github for version control, each having our own branch to work on and then combining our work through git commands and requests.
 
-
-### Challenges
-
-### Final Thoughts
 
 ## Code Attribution and other references
 
@@ -213,6 +197,10 @@ There was areference image:
 ![image of orange text on black screen](image-3.png)
 
 The exact colour values were obtained from <a href=https://coolors.co/>Coolors.co</a>
+
+## Icons
+
+<a href=https://fontawesome.com/icons>fontawesome.com</a> was used to provide the clock icon.
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
