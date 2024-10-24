@@ -161,20 +161,13 @@ We added colour contrasting text and backgrounds and alt text for images.
 
 * Responsivity of the quiz section header to mobile devices 
   * Bootstrap classes to keep audio toggle on the same line were used alongside a simplification of the main content.
-<br>
-<br>
 * File path for the feedback form link wasn't working
   * Took away relative file path
-<br>
-<br>
 * Countdown clock not working (numbers became negative)
   * Made small fix to end the quiz if time was < or = 0.
-<br>
-<br>
 * Answers weren't mapping to the correct buttons
   * An iterative approach was used, with AI used to debug.
-<br>
-<br>
+
 
 
 
