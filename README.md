@@ -224,6 +224,8 @@ The Clone Institute logo was made using <a href=https://www.logoai.com/make>logo
 
 <a href=https://stackoverflow.com/>stackoverflow.com</a> was used to find answers to various questions. 
 
+<a href=https://ui.dev/amiresponsive?url=https://oliver-tommy.github.io/hackathon-1/main.html>Am I responsive?</a> was used to create the screenshot of our game on various devices.
+
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
 **Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
