@@ -152,9 +152,31 @@ We added colour contrasting text and backgrounds and alt text for images.
 ## Testing and Validation
 
 ### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+- Throughout development, a 'mobile-first' approach was used.
+- Emphasis was maintained on creating a responsive website which was easily usable on a variety of screen sizes.
+
+<br>
+
+**Issues found and resolution**
+
+* Responsivity of the quiz section header to mobile devices 
+  * Bootstrap classes to keep audio toggle on the same line were used alongside a simplification of the main content.
+<br>
+<br>
+* File path for the feedback form link wasn't working
+  * Took away relative file path
+<br>
+<br>
+* Countdown clock not working (numbers became negative)
+  * Made small fix to end the quiz if time was < or = 0.
+<br>
+<br>
+* Answers weren't mapping to the correct buttons
+  * An iterative approach was used, with AI used to debug.
+<br>
+<br>
+
+
 
 ### Validation
 W3C and Jigsaw validators were used on all HTML and CSS files.
@@ -263,5 +285,8 @@ https://creativecommons.org/licenses/by/3.0/deed.en_US
 
 ## Future Improvements
 
-- The ability to start the walkthrough from the beginning by pushing a button.
 - To add more storytelling and different levels, perhaps getting more difficult questions as you go along, before getting cast into oblivion apon failure.
+- Sound FX playing on answering questions.
+- Generate new part number everytime a clone is fired up.
+- Implement difficulty level and category choosing, through different API calls.
+- Improve visual aesthetic.
