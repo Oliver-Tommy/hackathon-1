@@ -3,7 +3,6 @@ const optionButtonsElement = document.getElementById('option-buttons')
 
 let state = {}
 
-
 function startGame() {
   state = {}
   showTextNode(1)
@@ -36,6 +35,11 @@ function selectOption(option) {
   const nextTextNodeId = option.nextText
   if (nextTextNodeId <= 0) {
     return startGame()
+  }
+  // Check whether to redirect to main.html
+  if (nextTextNodeId === "main") {
+    window.location.href = "main.html"
+    return
   }
   state = Object.assign(state, option.setState)
   showTextNode(nextTextNodeId)
@@ -177,7 +181,7 @@ const textNodes = [
         {
             text: "I'm feeling great about this!",
             setState: {awakenedClone: false},
-            nextText: ,
+            nextText: "main",
         },
     ]
 },
@@ -188,7 +192,7 @@ const textNodes = [
         {
             text: "I'm not sure about this...",
             setState: {awakenedClone: false},
-            nextText: ,
+            nextText: "main",
         },
     ]
 }, 
