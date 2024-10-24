@@ -131,11 +131,11 @@ We added colour contrasting text and backgrounds and alt text for images.
 - **Feature 2:** Username: The username displays above the question being asked.
 - **Feature 3:** Answer buttons: These are responsive and displayed beneath the question.
 - **Feature 4:** Feedback form: There is a link to the form and the form is styled to match the rest of the game.
-- **Feature 5:** Multiple choice questions: These are sources from an API.  
+- **Feature 5:** Multiple choice questions: These are sourced from an API.  
 - **Feature 6:** Strong visual theme: This is displayed in the design choices for the text and colour scheme and the surrounding story helps create the required atmosphere.
 - **Feature 7:** Answer feedback: The responsive buttons change colour according to which answer is correct.
 - **Feature 8:** Points system: The points system is connected to the question responses and is displayed on the scoreboard.
-- **Feature 9:** How to play: The rules are explainhed to the user within the game.
+- **Feature 9:** How to play: The rules are explained to the user within the game.
 
 
 ### Advanced Features (Should-Haves)
@@ -192,7 +192,7 @@ The wireframes were made using Balsamiq <a href=https://www.balsamiq.com/>Balsam
 
 ## Colours
 
-There was areference image:
+There was a reference image:
 
 ![image of orange text on black screen](image-3.png)
 
@@ -201,6 +201,26 @@ The exact colour values were obtained from <a href=https://coolors.co/>Coolors.c
 ## Icons
 
 <a href=https://fontawesome.com/icons>fontawesome.com</a> was used to provide the clock icon.
+
+## Make your own adventure game code ideas
+
+<a href=https://www.youtube.com/watch?v=R1S_NhKkvGA>Link to youtube video</a>
+
+## Images
+
+the images were designed using <a href=https://www.canva.com/>Canva.com</a>
+
+## Clone Institute Logo
+
+The Clone Institute logo was made using <a href=https://www.logoai.com/make>logoai.com</a>
+
+## AI Tools Usage
+
+<a href=https://chatgpt.com/>ChatGPT</a> generated the code that formatted our API data into questions.
+
+## Other sources
+
+<a href=https://stackoverflow.com/>stackoverflow.com</a> was used to find answers to various questions. 
 
 ## Future Improvements
 Briefly discuss potential future improvements or features that could be added to the project.  
