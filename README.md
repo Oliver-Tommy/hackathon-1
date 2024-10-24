@@ -108,13 +108,15 @@ As part of the ideation process we decided we wanted a strong visual theme this 
 
 ## Colour Scheme:
 
-We used the following colours to create the vintage feel of the game:
+We created the following colour palette in <a href=https://coolors.co/>Coolors.co</a> to create the vintage, console aesthetic of the game:
 
-FFA328 - Orange Peel
-B05417 - Burnt Orange
-120B04 - Smoky Black
+#FFA328 - Orange Peel
+<br>
+#B05417 - Burnt Orange
+<br>
+#120B04 - Smoky Black
 
-![screenshot of the three colours taken from Coolors website](<colours for clone institute.png>)
+![screenshot of the three colours taken from Coolors website](<colours.png>)
 
 
 ## Fonts:
@@ -194,15 +196,15 @@ The wireframes were made using Balsamiq <a href=https://www.balsamiq.com/>Balsam
 
 ## Colours
 
-There was a reference image:
+The colours were sourced from a <a href="https://ca.pinterest.com/pin/github-swordfish90coolretroterm-a-good-looking-terminal-emulator-which-mimics-the-old-cathode-display--530932243588059565/">reference image:</a>
 
 ![image of orange text on black screen](image-3.png)
 
-The exact colour values were obtained from <a href=https://coolors.co/>Coolors.co</a>
+The exact colour values were obtained by selecting colours from the image using <a href=https://pinetools.com/image-color-picker>pinetools.com</a>.
 
 ## Icons
 
-<a href=https://fontawesome.com/icons>fontawesome.com</a> was used to provide the clock icon.
+<a href=https://fontawesome.com/icons>Fontawesome.com</a> was used to provide the clock icon.
 
 ## Make your own adventure game code ideas
 
@@ -218,11 +220,11 @@ The Clone Institute logo was made using <a href=https://www.logoai.com/make>logo
 
 ## AI Tools Usage
 
-<a href=https://chatgpt.com/>ChatGPT</a> generated the code that formatted our API data into questions.
+<a href=https://chatgpt.com/>ChatGPT</a> was used to help generate the code that formatted our API data into questions.
 
 ## Other sources
 
-<a href=https://stackoverflow.com/>stackoverflow.com</a> was used to find answers to various questions. 
+<a href=https://stackoverflow.com/>Stackoverflow.com</a> was used to find answers to various questions. 
 
 <a href=https://ui.dev/amiresponsive?url>Am I responsive?</a> was used to create the screenshot of our game on various devices.
 
@@ -232,5 +234,5 @@ Creative Commons / Attribution 3.0 Unported License (CC BY 3.0)
 https://creativecommons.org/licenses/by/3.0/deed.en_US 
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+
+A potential future improvement could be that once you've gone through the questions a few times it might be nice to have an option to get back to the game walkthrough and start it from the beginning again.
