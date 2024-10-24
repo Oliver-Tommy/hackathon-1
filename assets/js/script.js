@@ -169,7 +169,8 @@ function endQuiz() {
     
     questionBody.innerHTML = `
         <h3 id="question-number">Time's up!</h3>
-        <p id="question-text">Your final score: ${score} points</p>
+        <p id="question-text">Your final score: ${score} points<br>
+        Clone knowledge implant failure. Assign clone LNTWOS-4 to recyc.</p>
         <div class="text-center">
         <button class="btn btn-dark" id="reset-button">Try Again</button>
         <a href="form.html" class="btn btn-light">Leave Feedback</a>
