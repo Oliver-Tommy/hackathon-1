@@ -108,13 +108,15 @@ As part of the ideation process we decided we wanted a strong visual theme this 
 
 ## Colour Scheme:
 
-We used the following colours to create the vintage feel of the game:
+We used the following colours to create the vintage, console aesthetic of the game:
 
-FFA328 - Orange Peel
-B05417 - Burnt Orange
-120B04 - Smoky Black
+#FFA328 - Orange Peel
+<br>
+#B05417 - Burnt Orange
+<br>
+#120B04 - Smoky Black
 
-![screenshot of the three colours taken from Coolors website](<colours for clone institute.png>)
+![screenshot of the three colours taken from Coolors website](<colours.png>)
 
 
 ## Fonts:
