@@ -187,7 +187,7 @@ const textNodes = [
 },
 {
     id: 10,
-    text: "You are led through to another room, full of rows of chairs and terminals. You are taken to one and are sat down in front of it. Blinking at you is a user interface. Clone name input: _",
+    text: "You are led through to another room, full of rows of chairs and terminals. You are taken to one and are sat down in front of it. Blinking at you is a user interface. Clone name input:_... You try to remember...",
     options: [
         {
             text: "I'm not sure about this...",
