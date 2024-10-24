@@ -142,7 +142,7 @@ We added colour contrasting text and backgrounds and alt text for images.
 
 ### Advanced Features (Should-Haves)
 - **Feature 1:** Button interactivity: The buttons respond to hovering over and clicking on.
-- **Feature 2:** Music: Sourced music with a 'spooky eighties vibe'.
+- **Feature 2:** Music: Sourced music with a 'spooky eighties vibe', and ability to mute if required.
 - **Feature 3:** Narrative framing device: The story about the clone was added to the beginning of the game once a working quiz had been created.
 
 
