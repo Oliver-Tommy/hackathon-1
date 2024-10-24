@@ -1,3 +1,17 @@
+let myAudio = document.getElementById("myAudio");
+let isPlaying = false;
+
+function togglePlay() {
+    isPlaying ? myAudio.pause() : myAudio.play();
+};
+
+myAudio.onplaying = function () {
+    isPlaying = true;
+};
+myAudio.onpause = function () {
+    isPlaying = false;
+};
+
 // Select necessary elements
 const enterNameSection = document.getElementById("enterNameSection");
 const rulesSection = document.getElementById("rulesSection");
