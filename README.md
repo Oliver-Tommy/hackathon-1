@@ -235,8 +235,5 @@ https://creativecommons.org/licenses/by/3.0/deed.en_US
 
 ## Future Improvements
 
-<<<<<<< HEAD
-A potential future improvement could be that once you've gone through the questions a few times it might be nice to have an option to get back to the game walkthrough and start it from the beginning again. Another idea for the future could be to add more storytelling and perhaps different levels, perhaps getting more difficult questions as you go along, before getting cast into oblivion if you fail.
-=======
 - The ability to start the walkthrough from the beginning by pushing a button.
->>>>>>> main
+- To add more storytelling and different levels, perhaps getting more difficult questions as you go along, before getting cast into oblivion apon failure.
