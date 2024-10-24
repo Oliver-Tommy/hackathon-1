@@ -144,7 +144,7 @@ We added colour contrasting text and backgrounds and alt text for images.
 
 ### Advanced Features (Should-Haves)
 - **Feature 1:** Button interactivity: The buttons respond to hovering over and clicking on.
-- **Feature 2:** Music: Sourced music with a 'spooky eighties vibe'.
+- **Feature 2:** Music: Sourced music with a 'spooky eighties vibe', and ability to mute if required.
 - **Feature 3:** Narrative framing device: The story about the clone was added to the beginning of the game once a working quiz had been created.
 
 
@@ -235,4 +235,8 @@ https://creativecommons.org/licenses/by/3.0/deed.en_US
 
 ## Future Improvements
 
-A potential future improvement could be that once you've gone through the questions a few times it might be nice to have an option to get back to the game walkthrough and start it from the beginning again.
+<<<<<<< HEAD
+A potential future improvement could be that once you've gone through the questions a few times it might be nice to have an option to get back to the game walkthrough and start it from the beginning again. Another idea for the future could be to add more storytelling and perhaps different levels, perhaps getting more difficult questions as you go along, before getting cast into oblivion if you fail.
+=======
+- The ability to start the walkthrough from the beginning by pushing a button.
+>>>>>>> main
