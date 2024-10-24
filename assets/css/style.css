@@ -42,6 +42,10 @@ h1, h2, h3 {
     text-shadow: 0 0 10px var(--burnt-orange);
 }
 
+.node-window {
+    margin-top: 20vh;
+}
+
 .quiz-window,
 .contact-window {
     width: 800px;
