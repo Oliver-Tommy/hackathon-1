@@ -100,6 +100,8 @@ A simple layout, which is designed to be easily navigable and responsive.
 
 ![wireframe of the idea for the fullscreen question page layout made using balsamiq](image-2.png)
 
+![screenshot of the site displayed on various screen sizes](image-4.png)
+
 ## Narrative Framing Device
 
 As part of the ideation process we decided we wanted a strong visual theme this evolved into the narrative part of the game. 
