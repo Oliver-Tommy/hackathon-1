@@ -189,13 +189,24 @@ function endQuiz() {
         <p id="question-text">Your final score: ${score} points<br>
         Clone knowledge implant failure. Assign clone LNTWOS-4 to recyc.</p>
         <div class="text-center">
-        <button class="btn btn-dark" id="reset-button">Try Again</button>
+        <button class="btn btn-dark" id="newclone-button">Awaken a New Clone</button>
+        <button class="btn btn-dark" id="reset-button">Reset Test</button>
+
         <a href="form.html" class="btn btn-light">Leave Feedback</a>
         </div>
         `;
     
     answerButtons.innerHTML = '';
     
+    // Add event listener to the newclone button
+    const newcloneButton = document.getElementById("newclone-button");
+    if (newcloneButton) {
+        newcloneButton.addEventListener("click", () => {
+            window.location.href = "index.html"
+            return
+        })
+    }
+
     // Add event listener to the reset button
     const resetButton = document.getElementById('reset-button');
     if (resetButton) {

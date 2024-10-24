@@ -87,7 +87,7 @@ const textNodes = [{
     },
     {
         id: 2,
-        text: "You hear voices. They approach, the stop, they approach again. They're geting closer all the time.",
+        text: "You hear voices. They approach. They stop. They approach again. They're getting closer all the time.",
         options: [{
                 text: "C'mon already, lets go!",
                 setState: {
@@ -106,7 +106,7 @@ const textNodes = [{
     },
     {
         id: 3,
-        text: "You hear voices. They approach, the stop, they approach again. They're geting closer all the time.",
+        text: "You hear voices. They approach. They stop. They approach again. They're getting closer all the time.",
         options: [{
                 text: "I want to sleep!",
                 setState: {
@@ -134,7 +134,7 @@ const textNodes = [{
                 nextText: 5,
             },
             {
-                text: "Where am I. Who are you?",
+                text: "Where am I? Who are you?",
                 setState: {
                     awakenedClone: false
                 },
@@ -144,9 +144,9 @@ const textNodes = [{
     },
     {
         id: 5,
-        text: "One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for edumation.'",
+        text: "One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for education.'",
         options: [{
-                text: "You get up",
+                text: "You get up.",
                 setState: {
                     awakenedClone: false
                 },
@@ -163,7 +163,7 @@ const textNodes = [{
     },
     {
         id: 6,
-        text: "They ignore your question. One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for edumation.'",
+        text: "They ignore your question. One of the two figures outside your tank flatly speaks 'Clone LNTWOS-4. Get up and report for education.'",
         options: [{
                 text: "You get up.",
                 setState: {
@@ -182,7 +182,7 @@ const textNodes = [{
     },
     {
         id: 7,
-        text: "They lead you down a long hallway full of other people. Some dressed like you, some dressed like your chaperones. Everybody looks the same.",
+        text: "They lead you down a long hallway full of other people. Some dressed like you, some dressed like your chaperones. Everyone looks the same.",
         options: [{
                 text: "What a bunch of weirdos!",
                 setState: {
