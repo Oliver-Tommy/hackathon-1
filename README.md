@@ -168,16 +168,18 @@ Include the results of the validation process.
 
 ## AI Tools Usage
 
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
+
 
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+
+### GitHub Pages
+
+The site was deployed using GitHub pages, from the main branch.
+
+<a href=https://oliver-tommy.github.io/hackathon-1/>Link to the site</a>
+
 
 ## AI Tools Usage
 
